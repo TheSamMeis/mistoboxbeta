@@ -61,9 +61,21 @@
 	  float: left;
 	  margin: 10px 0px;
 	}
+
+	#brewContainer{
+
+	background-color: #f7f7f7;
+	position:absolute;
+	left:0;
+	right:0;
+	padding: 15px;
+	}
+
 	#brewGuide {
 		margin-bottom: 20px;
-		background-color: #f7f7f7;
+		width: 940px;
+		margin:auto;
+	
 	}
 	#brewInfo {
 		width: 400px;
