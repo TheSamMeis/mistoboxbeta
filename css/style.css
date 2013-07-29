@@ -15,7 +15,7 @@ h2{
 	font-size: 20px;
 	text-transform: uppercase;
 	margin: 10px;
-
+	color: #000;
 
 }
 
@@ -144,13 +144,122 @@ z-index: 99969;
 
 .wrapper {
 
-	width:900px;
+	width:940px;
 	margin: 20px auto;
 	height:2000px;
-	position:relative;
+	
 	padding: 0px;
-	color:white;
+	padding-top: 60px;
+	color: #000;
+	
 
 				}
 
+#taglineWrapper {
+	background: url(../images/homepage.jpg);
+	background-size: 940px;
+	width: 940px;
+	height: 400px;
+	color:white;
+}
 
+#tagline{
+
+	color: white;
+	font-size: 60px;
+	font-weight: bold;
+	width: 400px;
+	height: 400px;
+	position: relative;
+	top: 100px;
+	left: 50px;
+	 text-shadow: black 1px 1px 2px;
+	 font-family: 'Raleway', sans-serif;
+	 float: left;
+}
+
+#buttonblock{
+	background: rgba(0,0,0,0.5);
+	width: 350px;
+	height: 300px;
+	position: absolute;
+	top: 130px;
+	right: 100px;
+
+
+}
+
+
+
+ .button {
+	  background: #B5241A;
+	  border-radius: 2px;
+	  color: white;
+	  text-align: center;
+	  font-size: 18px;
+	  line-height: 60px;
+	  height: 60px;
+	  width: 260px;
+	  cursor: pointer;
+	 /* text-shadow: black 1px 1px 2px;*/
+	  float: left;
+	  margin: 10px 0px;
+	}
+
+	#worksJS{
+		width: 500px;
+		float: left;
+
+	}
+
+	.workContent{
+		font-size: 30px;
+		margin-top: 50px;
+	}
+
+	#socialProof{
+		background-color: #e8e3d9;
+		position:absolute !important;
+		left:0;
+		right:0;
+		padding: 15px;
+	}
+
+	#socialProof img{
+		margin:10px;
+	}
+
+	#featuredCoffes{
+			margin:auto;
+			text-align: middle;
+		    margin-top: 200px;
+
+
+	}
+
+		#brewContainer{
+
+	background-color: #e8e3d9;
+	position:absolute;
+	left:0;
+	right:0;
+	padding: 15px;
+	}
+
+	#brewGuide {
+		margin-bottom: 20px;
+		width: 940px;
+		margin:auto;
+	
+	}
+	#brewInfo {
+		width: 400px;
+		float:left;
+		vertical-align: top;
+		margin:0px;
+	}
+
+	#brewVid{
+		float:left;
+		margin-right: 15px;
+	}
