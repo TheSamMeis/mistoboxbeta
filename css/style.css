@@ -182,9 +182,11 @@ z-index: 99969;
 	background: rgba(0,0,0,0.5);
 	width: 350px;
 	height: 300px;
-	position: absolute;
+	float:left;
+	margin: 50px 80px ;
+/*	position: absolute;
 	top: 130px;
-	right: 100px;
+	 left: 900px;*/
 
 
 }
@@ -204,6 +206,15 @@ z-index: 99969;
 	 /* text-shadow: black 1px 1px 2px;*/
 	  float: left;
 	  margin: 10px 0px;
+	}
+
+	#buttonblock .button{
+		margin-top: 40px;
+		margin-left: 40px;
+		margin-right: 40px;
+	}
+	#hpButtonWrap{
+		width: 350px;
 	}
 
 	#worksJS{
@@ -263,3 +274,16 @@ z-index: 99969;
 		float:left;
 		margin-right: 15px;
 	}
+
+
+		#footerContainer{
+
+	background-color: #776455;
+	position:absolute;
+	left:0;
+	right:0;
+	padding: 100px;
+	margin-top: 380px;
+	}
+
+	

@@ -36,15 +36,52 @@
 		background-size: 313px;
 	}
 
+.blackOverlay {
+	
+	width:303px;
+	height: 303px;
+	position: relative;
+	
+
+
+	
+  
+}
+
+.blackOverlay:hover{
+    // Red(0-255), Blue(0-255), Green(0-255), Alpha (0-1)
+     -webkit-transition:opacity 0.2s ease;
+    -moz-transition:opacity 0.2s ease;
+    -o-transition:opacity 0.2s ease;
+     	background-color:rgba(0,0,0,0.5);
+   
+}
+
 	.label{
 		color: #FFF;
 		font-size: 40px;
 		text-align: center;
+		margin: auto;
 		margin-top: 113px;
+
 		text-transform: uppercase;
 		font-family: 'Roboto Slab', serif;
+		position: absolute;
+		 z-index: 10000;
 
 
+	}
+
+	#origin .label {
+		margin-left: 80px;
+	}
+
+	#roasting .label {
+		margin-left: 50px;
+	}
+	
+	#home .label {
+		margin-left: 90px;
 	}
 
 	 .button {
