@@ -149,7 +149,7 @@ z-index: 99969;
 	height:2000px;
 	
 	padding: 0px;
-	padding-top: 60px;
+	padding-top: 80px;
 	color: #000;
 	
 
@@ -172,7 +172,7 @@ z-index: 99969;
 	height: 400px;
 	position: relative;
 	top: 100px;
-	left: 50px;
+	left: 80px;
 	 text-shadow: black 1px 1px 2px;
 	 font-family: 'Raleway', sans-serif;
 	 float: left;
@@ -187,11 +187,7 @@ z-index: 99969;
 /*	position: absolute;
 	top: 130px;
 	 left: 900px;*/
-
-
 }
-
-
 
  .button {
 	  background: #B5241A;
@@ -217,11 +213,38 @@ z-index: 99969;
 		width: 350px;
 	}
 
+	#howitworks{
+		margin-top: 35px;
+	}
+
 	#worksJS{
 		width: 500px;
 		float: left;
 
 	}
+	.workButtons{
+		position: relative;
+		float:left;
+		margin-right:20px;
+		display: block;
+		color:black;
+		text-decoration: none;
+	}
+	.workButtons a{
+		display: block;
+		color:black;
+		text-decoration: none;
+	}
+	.showinfo a{
+		color:red;
+
+	}
+
+	.hideContent{
+		display: none;
+	}
+
+
 
 	.workContent{
 		font-size: 30px;
@@ -241,21 +264,20 @@ z-index: 99969;
 	}
 
 	#featuredCoffes{
-			margin:auto;
-			text-align: middle;
-		    margin-top: 200px;
+		margin:auto;
+		text-align: middle;
+	    margin-top: 200px;
 
 
 	}
 
-		#brewContainer{
-
-	background-color: #e8e3d9;
-	position:absolute;
-	left:0;
-	right:0;
-	padding: 15px;
-	}
+	#brewContainer{
+		background-color: #e8e3d9;
+		position:absolute;
+		left:0;
+		right:0;
+		padding: 15px;
+		}
 
 	#brewGuide {
 		margin-bottom: 20px;
@@ -276,7 +298,7 @@ z-index: 99969;
 	}
 
 
-		#footerContainer{
+	#footerContainer{
 
 	background-color: #776455;
 	position:absolute;

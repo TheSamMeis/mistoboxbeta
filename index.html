@@ -4,12 +4,38 @@
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
 		<!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
-<link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Raleway:400,600' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Raleway:400,600' rel='stylesheet' type='text/css'>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+		
+
+
+
 
 	</head>
 
 	<body>
+
+		<script> 
+			$(document).ready(function() {
+				$('.workButtons').mouseover(function() {
+			       
+			       $('.showinfo').removeClass('showinfo');
+			       $(this).addClass('showinfo');
+
+			       if ($(this).hasClass('workCoffee')){
+			       		$(this).removeClass('hideContent')
+			       		$('.coffeeContent').addClass('showContent');
+			       } 
+
+
+		    	});
+
+
+
+			});
+		</script>
 
 <header class="site-header">
 <div style="height:30px; background:#E8E3D9">
@@ -69,13 +95,20 @@
 		</h2>
 
 		<div id="worksJS">
-			<div id= "workButtons">
-				Coffee Delivery Enjoy
-			</div>
-
-			<div class = "workContent">
+			
+				<div class = "workCoffee showinfo workButtons"><a href="#">Coffee</a></div>
+				<div class=" workDelivery workButtons"><a href="#">Delivery</a></div>
+				<div class="workEnjoy workButtons"><a href="#">Enjoy</a></div>				
+			<div class = "coffeeContent workContent">
 				We hand pick 4 legendary coffees from the country's most awesome coffee roasters.
 			</div>
+	<!-- 		<div class = "coffeeContent workContent">
+				We hand pick 4 legendary coffees from the country's most awesome coffee roasters.
+			</div>
+			<div class = "coffeeContent workContent">
+				We hand pick 4 legendary coffees from the country's most awesome coffee roasters.
+			</div> -->
+
 		</div>
 
 		<img src="images/mistoboxcoffee.jpg" style="width:400px">
