@@ -1,51 +1,26 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang='en'>
-	<head> 
+	<head>
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
 		<!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
 		<link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Raleway:400,600' rel='stylesheet' type='text/css'>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-
-		
-
-
-
-
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js/home.js"></script>
 	</head>
 
 	<body>
-
-		<script> 
-			$(document).ready(function() {
-				$('.workButtons').mouseover(function() {
-			       
-			       $('.showinfo').removeClass('showinfo');
-			       $(this).addClass('showinfo');
-
-			       if ($(this).hasClass('workCoffee')){
-			       		$(this).removeClass('hideContent')
-			       		$('.coffeeContent').addClass('showContent');
-			       } 
-
-
-		    	});
-
-
-
-			});
-		</script>
 
 <header class="site-header">
 <div style="height:30px; background:#E8E3D9">
 <div class="container topheader">
 	<span style="color:#C00">
     FREE SHIPPING
-    </span> 
+    </span>
     ON FULL-SIZE ORDERS $50+
     <span style="float:right"> LOGIN/CART</span>
-</div> 
+</div>
 
 </div>
 
@@ -60,7 +35,7 @@
 	<a href="http://www.mistobox.com"> BLOG </a>
 	<a href="http://www.mistobox.com"> GIFT </a>
 	<a href="http://www.mistobox.com"> ABOUT </a>
-	<a class=" btn btn-nav content-no-logged-in" href="/shop/join" data-panel-nav="clear">SUBSCRIBE</a></div> 
+	<a class=" btn btn-nav content-no-logged-in" href="/shop/join" data-panel-nav="clear">SUBSCRIBE</a></div>
 
 </div>
 </div>
@@ -70,7 +45,7 @@
 
 
 	<div class="wrapper">
-	
+
 	<div id= "taglineWrapper">
 		<div id ="tagline">
 			World's Best Coffee Delivered
@@ -85,7 +60,7 @@
 		 		</div>
 	 		</div>
 	 		<div>
-	 		 Skip to Subscription 
+	 		 Skip to Subscription
 	 		</div>
 		</div>
 	</div>
@@ -95,20 +70,29 @@
 		</h2>
 
 		<div id="worksJS">
-			
-				<div class = "workCoffee showinfo workButtons"><a href="#">Coffee</a></div>
-				<div class=" workDelivery workButtons"><a href="#">Delivery</a></div>
-				<div class="workEnjoy workButtons"><a href="#">Enjoy</a></div>				
-			<div class = "coffeeContent workContent">
-				We hand pick 4 legendary coffees from the country's most awesome coffee roasters.
+			<div id="workButtons">
+        <div id="coffee">
+          Coffee
+        </div>
+        <div id="delivery">
+          Delivery
+        </div>
+        <div id="enjoy">
+          Enjoy
+        </div>
 			</div>
-	<!-- 		<div class = "coffeeContent workContent">
-				We hand pick 4 legendary coffees from the country's most awesome coffee roasters.
-			</div>
-			<div class = "coffeeContent workContent">
-				We hand pick 4 legendary coffees from the country's most awesome coffee roasters.
-			</div> -->
 
+			<div class="workContent">
+        <div class="coffee">
+				  We hand pick 4 legendary coffees from the country's most awesome coffee roasters.
+        </div>
+        <div class="delivery" style="display:none;">
+          We wrap it all up like a present, and the coffee arrives at your doorstep without hassle.
+        </div>
+        <div class="enjoy" style="display:none;">
+          Enjoy placeholder text.
+        </div>
+			</div>
 		</div>
 
 		<img src="images/mistoboxcoffee.jpg" style="width:400px">
@@ -116,7 +100,7 @@
 
 	<div id="socialProof">
 		<h2> | You May Have Seen Us Around |
-		<div class = "clearfix"> 
+		<div class = "clearfix">
 
 			<img src = "images/sharktank.png" style="width:100px">
 			<img src = "images/foodandwine.png" style="width:150px">
@@ -128,7 +112,7 @@
 		</div>
 	</div>
 
-	<div id="featuredCoffes"> 
+	<div id="featuredCoffes">
 		<h2> | Currently Featuring | </h2>
 		<img src="images/coffees.png" style="  display:block;
     margin:auto; width: 900px">
@@ -141,13 +125,13 @@
 	 	<h2> |Brew Guides| </h2>
 	 	<br>
 	 	<div id="brewVid">
-	 		<iframe src="http://player.vimeo.com/video/45987463" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> 
+	 		<iframe src="http://player.vimeo.com/video/45987463" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 	 	</div>
 	 	<div id="brewInfo">
 	 		<p style ="margin-top: 0px">
-	 			"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+	 			"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
 	 		</p>
-	 		
+
 	 		<div class="button">
 	 			See All Brew Guides
 	 		</div>
