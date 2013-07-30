@@ -37,24 +37,29 @@
 	}
 
 .blackOverlay {
-	
 	width:303px;
 	height: 303px;
 	position: relative;
-	
-
-
-	
-  
 }
 
-.blackOverlay:hover{
-    // Red(0-255), Blue(0-255), Green(0-255), Alpha (0-1)
-     -webkit-transition:opacity 0.2s ease;
-    -moz-transition:opacity 0.2s ease;
-    -o-transition:opacity 0.2s ease;
-     	background-color:rgba(0,0,0,0.5);
-   
+
+.learnBox.hover .blackOverlay{
+  // Red(0-255), Blue(0-255), Green(0-255), Alpha (0-1)
+  -webkit-transition:opacity 0.2s ease;
+  -moz-transition:opacity 0.2s ease;
+  -o-transition:opacity 0.2s ease;
+  background-color:rgba(0,0,0,0.5);
+}
+
+
+
+.learnBox .rolltext {
+  position: absolute;
+  display: none;
+}
+.learnBox.hover .rolltext {
+  display: block;
+  color: black;
 }
 
 	.label{
@@ -79,7 +84,7 @@
 	#roasting .label {
 		margin-left: 50px;
 	}
-	
+
 	#home .label {
 		margin-left: 90px;
 	}
@@ -112,7 +117,7 @@
 		margin-bottom: 20px;
 		width: 940px;
 		margin:auto;
-	
+
 	}
 	#brewInfo {
 		width: 400px;
