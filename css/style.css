@@ -6,6 +6,7 @@ h1{
 	line-height: 70px;
 	font-size: 60px;
 	margin: 0px 0px;
+	text-align: center;
 }
 
 h2{
@@ -14,9 +15,17 @@ h2{
 	text-align: center;
 	font-size: 20px;
 	text-transform: uppercase;
-	margin: 10px;
+	margin: 15px;
 	color: #000;
 
+}
+
+hr{
+	color: #dddddd;
+	background-color: #dddddd;
+	height: 1px;
+	border:0;
+	margin: 20px 0px;
 }
 
 body{
@@ -307,4 +316,62 @@ margin-top: 12px !important;
 	margin-top: 380px;
 	}
 
+	#grindContainer #footerContainer{
+
+	background-color: #776455;
+	position:absolute;
+	left:0;
+	right:0;
+	padding: 100px;
+	margin-top: 30px;
+	}
+
+	#grindHeader{
+		background: url(../images/grindingimage.jpg);
+		background-size: 940px;
+		width: 940px;
+		height:380px;
+		color:white;
+
+	}
+
+	#grindHeader h1{
+		padding-top: 160px;
+		color:white;
+	}
+
+	#grindMenu{
+		text-align: center;
+	}
+
+	
+	#grindMenu a {
+		margin: 0px 20px;
+		color: #000;
+		text-decoration: none;
+
+	}
+
+	#grindMenu a:hover{
+		margin: 0px 20px;
+		color: #B5241A;
+		text-decoration: none;
+
+	}
+
+	#grindContainer{
+		padding-top: 90px;
+		width:940px;
+		margin:auto;
+	}
+
+
+.anchor{
+  display: block;
+  height: 80px; 
+  margin-top: -80px; 
+  visibility: hidden;
+}
+
+	
 

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang='en'>
+	<head>
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/edu.css">
+		<!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
+<link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,600' rel='stylesheet' type='text/css'>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/edu.js"></script>
+
+<script>
+$('.darkenjquery').hover(function() {
+    $(this).find('img').fadeTo(500, 0.5);
+}, function() {
+    $(this).find('img').fadeTo(500, 1);
+});
+</script>
+
+
+	</head>
+
+	<body>
+
+<header class="site-header">
+<div class="scrollaway">
+<div class="container topheader">
+	<span style="color:#C00">
+    FREE SHIPPING
+    </span>
+    ON FULL-SIZE ORDERS $50+
+    <span style="float:right"> LOGIN/CART</span>
+</div>
+
+</div>
+
+
+
+<div class="signup-bar">
+	<div id='headerContainer'>
+	<img id = "logo" src="images/mistoboxlogo.gif"/>
+
+	<a id="shop" href="http://www.mistobox.com"> SHOP </a>
+	<a href="http://www.mistobox.com"> LEARN </a>
+	<a href="http://www.mistobox.com"> BLOG </a>
+	<a href="http://www.mistobox.com"> GIFT </a>
+	<a href="http://www.mistobox.com"> ABOUT </a>
+	<a class=" btn btn-nav content-no-logged-in" href="/shop/join" data-panel-nav="clear">SUBSCRIBE</a></div>
+
+</div>
+
+</header>
+
+
+<div id = "grindContainer">
+
+	<div id ="grindHeader">
+		<h1> Coffee Grinding </h1>
+	</div>
+	<h2>| What We Intend to Acheive When We Brew Coffee |</h2>
+	
+	<p style="font-size: 40px; margin-top: 10px">
+	"We are trying to release delicious flavors from the coffee bean and then capture them so we can taste them."
+	</p>
+
+	<hr>
+		<div id="grindMenu">
+			<a href="#coffeeGrindingJump">Coffee Grinding </a>
+			<a href="#coffeeFreshnessJump">Coffee Freshness </a> 
+			<a href="#particleSizeJump">Particle Size & Uniformity </a>
+			<a href="#burrGrinderJump"> Burr & Blade Grinders </a> 
+		</div>
+	<hr> 
+
+	<span class="anchor" id="coffeeGrindingJump"></span>	
+	<div id ="coffeeGrinding" class="clearfix">
+	 	<h2> | Coffee Grinding | </h2>
+	
+	 	<p style ="margin-top: 0px">
+		 	<ul>
+				<li>
+					We use whole bean coffee that is freshly roasted and ideally stored (because it has delicious flavors we want to taste). We have to grind it, so those flavors are easier to get to, and then use hot water to wash them out because hot water is great at dissolving these flavors and trapping flavorful gases
+				</li>
+				<li>
+					We have to grind the coffee to make these flavors more accessible. Depending on how we are going to extract these flavors, we need to choose a grind size that will get everything we want without getting flavors we don’t want, like bitterness or astringency. 
+				</li>
+				<li> 
+					We use hot water to wash flavors (flavor particles capable of being dissolved = soluble solids) out of the bean itself. 
+				</li> 
+				<li>
+					Water also traps gases that are being released. 
+				</li> 
+				<li>
+					These gases have tons of flavor compounds and will make our coffee taste better.
+				</li>
+				</ul>
+	 		</p>
+
+	 	
+	</div>
+	
+	<span class="anchor" id="coffeeFreshnessJump"></span>	
+	<div id="coffeeFreshness">
+		<h2>| Coffee Freshness |</h2>
+		<p>
+			<ul>
+				<li>
+					In order to understand grinding, the importance of freshness must be addressed
+				</li>
+				<li>
+					Carbon dioxide is like a bubble of freshness; during the roasting process, volatile aromatic compounds (flavor) adhere themselves to carbon dioxide which is a byproduct of the roasting process. 
+				</li>
+				<li>
+					Over time, these gases will naturally evaporate out of the roasted coffee, along with the flavor. 
+				</li>
+				<li>	
+					Coffee must be stored appropriately as whole bean and used within two weeks of roasting to be sure that your coffee will taste as good as it can.
+				</li>
+			</ul>
+		</p>
+	</div>
+
+	<span class="anchor" id="particleSizeJump"></span>
+	<div id="particleSize">
+		<h2>| Partical Size & Uniformity|</h2>
+		<p>
+
+			•	Particle size is extremely important, and one of the important aspect of the grinding process
+			•	Particle size and dwell/contact time are linearly linked, the larger the grind size, the more contact time with water for extraction and, the smaller the grind, the less time water and grounds should be in contact
+			•	Particle uniformity
+			•	Having consistent particle size is crucial, because particles that are larger than desired, called “boulders”, or smaller , called “fines” can cause uneven extraction.
+
+		</p>
+	</div>
+
+	<span class="anchor" id="burrGrinderJump"></span>
+	<div id="burrGrinder">
+		<h2>| Burr & Blade Grinders |</h2>
+		<p>
+
+					Burr and blade grinders – what’s the difference?
+
+			•	Burr Grinders
+			•	Most home burr grinders are conical – insert image
+			•	Only one size of particles can fit between the burrs, grinding coffee not only specifically for how you want to brew it, but also giving consistency of size
+
+			•	Blade grinders
+			•	Blade grinders are probably the most common type of “grinder” found in homes across the US for one reason
+			•	Cost 
+			•	Its not actually a grinder, more of a chopper
+			•	Burrs grind the coffee by passing between two plates that creates a milling action, blade grinders use a blades connected to a using high rotation frequencies to rapidly chop the beans into smaller particle sizes
+
+			•	4 key problems associated with blade grinders
+			•	friction: rapidly chopping the beans with rotating blades create lots of friction when they come in contact with the beans, creating excess heat, diminishing the freshness 
+			•	Grinding compartment location: the grinding compartment usually resides directly above the motor, as the motor works to spin the blades quickly, this gives off a good amount of heat, heating the entire grinding chamber of coffee, adding to the heat caused by friction, again diminishing the freshness of the coffee
+			•	Inconsistency of particle size and unevenness between particles: you end up with large rocks, pebbles and fines at every stage because the blades chop the beans. No matter how long you keep the blade going, you will always have a huge variance of particle size (show example of coffees ground via blade grinder), this causes issues of extraction. Too many fines and it will result in an overextracted, bitter brew; too many large coarse pieces, will result in underextracted, underdeveloped flavors. Usually both over and underextraction occurs causing a mix of bitterness and underdeveloped flavors, along with deteriorated aromatics makes for a bad mix… 
+			•	It is difficult to get consistent results. Even if you use time as the main variable in determining grind size, grinding for a set amount of time every time you brew doesn’t necessarily mean you get the same results. It depends on amount of coffee you are grinding, time of grinding action, and ultimately the same movements within the chamber, if any of these aren’t consistent, it will be very difficult to consistently produce the same results
+
+			•	Pros vs. Cons of Burrs
+			•	Pros: consistent, even, specific grind settings, control, delivers desired results, less friction, less heat from motors
+			•	Cons: more expensive 
+			•	Pros vs. Cons of Blades
+			•	Pros: cost effective, easy to find 
+			•	Cons: friction, grinding compartment located above motor, blade uses chopping action rather than grinding, inconsistent, uneven, difficult to get consistent results
+
+
+		</p>
+	</div>
+
+
+	<div id="footerContainer">
+	</div>
+
+
+</div>
+
+
+
+
+
+
+</body>
+</html>
+
+
