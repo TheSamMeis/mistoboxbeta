@@ -13,7 +13,7 @@ h2{
 	font-family: 'Raleway', sans-serif;
 	font-weight: bold;
 	text-align: center;
-	font-size: 20px;
+	font-size: 17px;
 	text-transform: uppercase;
 	margin: 15px;
 	color: #000;
@@ -21,8 +21,8 @@ h2{
 }
 
 hr{
-	color: #dddddd;
-	background-color: #dddddd;
+	color: #cdc8be;
+	background-color: #ededec;
 	height: 1px;
 	border:0;
 	margin: 20px 0px;
@@ -57,7 +57,7 @@ font-weight: normal;
 
 .scrollaway {
    height:30px;
-   background:#E8E3D9;
+   background:#f7f7f7;
 }
 
 .topheader{
@@ -142,7 +142,9 @@ margin-top: 12px !important;
   width: 100%;
   top: 25px;
   left: 0;
-  background: #f7f7f7;
+/*  background: #f7f7f7;*/
+
+  background: #fff;
   background-position: top;
   padding: 5px;
   text-align: left;
@@ -334,15 +336,48 @@ margin-top: 12px !important;
 		color:white;
 
 	}
+	#advHeader{
+		background: url(../images/advancedbrewing.jpg);
+		background-size: 940px;
+		width: 940px;
+		height:380px;
+		color:white;
 
-	#grindHeader h1{
+	}
+
+	.edHeader h1{
 		padding-top: 160px;
 		color:white;
+		font-size: 60px;
 	}
 
-	#grindMenu{
+
+	.edMenu{
 		text-align: center;
 	}
+	
+	.edMenu a {
+		margin: 0px 20px;
+		color: #000;
+		text-decoration: none;
+
+	}
+
+	.edMenu a:hover{
+		margin: 0px 20px;
+		color: #B5241A;
+		text-decoration: none;
+
+	}
+
+	#advContainer{
+		padding-top: 90px;
+		width:940px;
+		margin:auto;
+	}
+
+
+
 
 	
 	#grindMenu a {
@@ -366,12 +401,20 @@ margin-top: 12px !important;
 	}
 
 
-.anchor{
-  display: block;
-  height: 80px; 
-  margin-top: -80px; 
-  visibility: hidden;
-}
+
+	.anchor{
+	  display: block;
+	  height: 80px; 
+	  margin-top: -80px; 
+	  visibility: hidden;
+	}
+
+	.quote{
+
+		color: #cdc8be;
+		font-size: 34px; 
+		margin-top: 10px;
+	}
 
 	
 
