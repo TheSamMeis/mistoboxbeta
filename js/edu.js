@@ -6,4 +6,13 @@ $(function() {
   function() {
     $(this).removeClass('hover');
   });
+
+  	$('div.learnBox').click(function(){
+  		window.location = $(this).attr("title");
+
+  	});
+
+
+
 });
+
