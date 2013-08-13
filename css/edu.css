@@ -1,11 +1,31 @@
-	#left_nav{display:none !important}
+#left_nav{display:none !important}
 
-	.learnBox {
+.learnBox {
 		width:303px;
 		height: 330px;
 		float:left;
 		margin:5px;
+		cursor: pointer;
 	}
+
+.homeBrewing .learnBox{
+		width:210px;
+		height: 250px;
+		float:left;
+		margin:10px;
+		cursor: pointer;
+	}
+
+.homeBrewing .overlay {
+	width:210px;
+	height: 210px;
+	position: relative;
+}
+.homeBrewing .rolltext {
+	width:210px;
+	height: 210px;
+	position: relative;
+}
 
 	#edContainer{
 		padding-top: 90px;
@@ -17,6 +37,15 @@
 	.photo {
 		height:303px;
 		width:303px;
+		float:left;
+		margin: 0px;
+		vertical-align: top;
+
+	}
+
+	.homeBrewing	.photo {
+		height:210px;
+		width:210px;
 		float:left;
 		margin: 0px;
 		vertical-align: top;
@@ -35,19 +64,56 @@
 		background: url(../images/home.jpg);
 		background-size: 313px;
 	}
- .blackOverlay {
+
+
+	#americas .photo{
+		background: url(../images/americas.jpg);
+		background-size: 313px;
+	}
+	#africa .photo{
+		background: url(../images/africa.jpg);
+		background-size: 313px;
+	}
+	#asia .photo{
+		background: url(../images/asiapacific.jpg);
+		background-size: 313px;
+	}
+
+	#brewGuides .photo{
+		background: url(../images/grinding.jpg);
+		background-size: 210px;
+
+	}
+
+	#grinding .photo{
+		background: url(../images/grinding.jpg);
+		background-size: 210px;
+
+	}
+	#advBrewing .photo{
+		background: url(../images/advancedBrewing.jpg);
+		background-size: 210px;
+
+	}
+	#storage .photo{
+		background: url(../images/storage.jpg);
+		background-size: 210px;
+
+	}
+
+ .overlay {
 	width:303px;
 	height: 303px;
 	position: relative;
 }
 
 
-.learnBox.hover .blackOverlay{
+.learnBox.hover .overlay{
   // Red(0-255), Blue(0-255), Green(0-255), Alpha (0-1)
   -webkit-transition:opacity 0.2s ease;
   -moz-transition:opacity 0.2s ease;
   -o-transition:opacity 0.2s ease;
-  background-color:rgba(250,250,250,0.3);
+  background-color:rgba(0,0,0,0.3);
 }
 
 
@@ -61,32 +127,23 @@
   color: black;
 }
 
-	.label{
+.label{
+		width: 303px;
 		color: #FFF;
 		font-size: 40px;
 		text-align: center;
 		margin: auto;
 		margin-top: 113px;
-
 		text-transform: uppercase;
 		font-family: 'Roboto Slab', serif;
 		position: absolute;
-		 z-index: 100;
-
-
+		z-index: 100;
 	}
-
-	#origin .label {
-		margin-left: 80px;
-	}
-
-	#roasting .label {
-		margin-left: 50px;
-	}
-
-	#home .label {
-		margin-left: 90px;
-	}
+.homeBrewing .label{
+	width:210px;
+	font-size: 20px;
+	margin-top: 100px;
+}
 
 	#home a{
 		display: block; 
@@ -152,3 +209,181 @@
 /* start commented backslash hack \*/
 * html .clearfix { height: 1%; }
 .clearfix { display: block; }
+
+.roasterRow{
+	width:820px;
+	margin:auto;
+}
+.roasterSquare {
+		width:250px;
+		height: 250px;
+		float:left;
+		margin: 0px 10px;
+		border-top: solid 1px #e8e6e4;
+		cursor: pointer; 
+		cursor: hand;
+	}
+
+	.roasterSquare .label{
+		color: #000;
+		font-size: 20px;
+		line-height: 20px;
+		text-align: center;
+		margin: auto;
+		margin-top: 170px;
+		width:250px;
+		text-transform: uppercase;
+		font-family: 'Roboto Slab', serif;
+		position: absolute;
+		z-index: 100;
+	}
+
+		.roasterSquare .location{
+		color: #000;
+		font-size: 12px;
+		text-align: center;
+		margin: auto;
+		margin-top: 220px;
+		width:250px;
+		text-transform: uppercase;
+		font-family: 'Roboto Slab', serif;
+		position: absolute;
+		z-index: 100;
+	}
+
+.roasterSquare.hover .label {
+		color: #b5241a;
+	}
+
+.roasterSquare .overlay{
+	width:250px;
+	height: 250px;
+}
+
+.roasterSquare .photo{
+	width:250px;
+	height: 250px;
+}
+
+
+.roasterSquare.hover .overlay{
+  // Red(0-255), Blue(0-255), Green(0-255), Alpha (0-1)
+  -webkit-transition:opacity 0.2s ease;
+  -moz-transition:opacity 0.2s ease;
+  -o-transition:opacity 0.2s ease;
+  background-color:rgba(230,230,230,0.3);
+  width:250px;
+	height: 250px;
+}
+
+	.roasterSquare#augies .photo{
+		background: url(../images/augies.jpg);
+		background-size: 251px;
+	}
+
+	.roasterSquare#anodyne .photo{
+		background: url(../images/anodyne.jpg);
+		background-size: 251px;
+	}
+
+	.roasterSquare#aj .photo{
+		background: url(../images/aj.jpg);
+		background-size: 251px;
+	}
+	.roasterSquare#barefoot .photo{
+		background: url(../images/barefoot.jpg);
+		background-size: 251px;
+	}
+	.roasterSquare#bowtruss .photo{
+		background: url(../images/bowtruss.jpg);
+		background-size: 251px;
+	}
+	.roasterSquare#brown .photo{
+		background: url(../images/brown.jpg);
+		background-size: 251px;
+	}
+
+	.roasterSquare#cartel .photo{
+		background: url(../images/cartel.jpg);
+		background-size: 251px;
+	}
+	.roasterSquare#case .photo{
+		background: url(../images/case.jpg);
+		background-size: 251px;
+	}
+	.roasterSquare#ceremony .photo{
+		background: url(../images/ceremony.jpg);
+		background-size: 251px;
+	}
+	.roasterSquare#chocolatefish .photo{
+		background: url(../images/chocolatefish.jpg);
+		background-size: 251px;
+	}
+	.roasterSquare#coava .photo{
+		background: url(../images/coava.jpg);
+		background-size: 251px;
+	}
+	.roasterSquare#demitasse .photo{
+		background: url(../images/demitasse.jpg);
+		background-size: 251px;
+	}
+	.roasterSquare#elemental .photo{
+		background: url(../images/elemental.jpg);
+		background-size: 251px;
+	}
+	.roasterSquare#entimos .photo{
+		background: url(../images/entimos.jpg);
+		background-size: 251px;
+	}
+	.roasterSquare#halfwit .photo{
+		background: url(../images/halfwit.jpg);
+		background-size: 251px;
+	}
+	.roasterSquare#klatch .photo{
+		background: url(../images/klatch.jpg);
+		background-size: 251px;
+	}	
+	.roasterSquare#ladro .photo{
+		background: url(../images/ladro.jpg);
+		background-size: 251px;
+	}
+	.roasterSquare#lonepine .photo{
+		background: url(../images/lonepine.jpg);
+		background-size: 251px;
+	}
+	.roasterSquare#oakcliff .photo{
+		background: url(../images/oakcliff.jpg);
+		background-size: 251px;
+	}	
+	.roasterSquare#oq .photo{
+		background: url(../images/oq.jpg);
+		background-size: 251px;
+	}	
+	.roasterSquare#panther .photo{
+		background: url(../images/panther.jpg);
+		background-size: 251px;
+	}	
+	.roasterSquare#passionhouse .photo{
+		background: url(../images/passionhouse.jpg);
+		background-size: 251px;
+	}	
+	.roasterSquare#ristretto .photo{
+		background: url(../images/ristretto.jpg);
+		background-size: 251px;
+	}	
+	.roasterSquare#verve .photo{
+		background: url(../images/verve.jpg);
+		background-size: 251px;
+	}	
+	.roasterSquare#victrola .photo{
+		background: url(../images/victrola.jpg);
+		background-size: 251px;
+	}	
+	.roasterSquare#wateravenue .photo{
+		background: url(../images/wateravenue.jpg);
+		background-size: 251px;
+	}	
+	.roasterSquare#westbean .photo{
+		background: url(../images/westbean.jpg);
+		background-size: 251px;
+	}	

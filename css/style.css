@@ -27,7 +27,7 @@ hr{
 	border:0;
 	margin: 20px 0px;
 }
-
+z
 body{
 	background-image: url("../images/background.png");
 	background-attachment:fixed;
@@ -318,6 +318,7 @@ margin-top: 12px !important;
 	margin-top: 380px;
 	}
 
+
 	#grindContainer #footerContainer{
 
 	background-color: #776455;
@@ -337,7 +338,7 @@ margin-top: 12px !important;
 
 	}
 	#advHeader{
-		background: url(../images/advancedbrewing.jpg);
+		background: url(../images/advancedbrewingimage.jpg);
 		background-size: 940px;
 		width: 940px;
 		height:380px;
@@ -363,6 +364,21 @@ margin-top: 12px !important;
 
 	}
 
+	#growingHeader{
+		background: url(../images/growingregions.jpg);
+		background-size: 940px;
+		width: 940px;
+		height:380px;
+		color:white;
+	}
+
+	#originHeader{
+		background: url(../images/originimage.jpg);
+		background-size: 940px;
+		width: 940px;
+		height:380px;
+		color:white;
+	}
 
 
 	.edHeader h1{

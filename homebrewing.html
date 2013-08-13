@@ -4,21 +4,12 @@
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/edu.css">
-		<!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
-<link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Raleway:400,600' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Raleway:400,600' rel='stylesheet' type='text/css'>
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
-<script type="text/javascript" src="js/common.js"></script>
-<script type="text/javascript" src="js/edu.js"></script>
-
-<script>
-$('.darkenjquery').hover(function() {
-    $(this).find('img').fadeTo(500, 0.5);
-}, function() {
-    $(this).find('img').fadeTo(500, 1);
-});
-</script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+		<script type="text/javascript" src="js/common.js"></script>
+		<script type="text/javascript" src="js/edu.js"></script>
 
 
 	</head>
@@ -44,7 +35,7 @@ $('.darkenjquery').hover(function() {
 	<img id = "logo" src="images/mistoboxlogo.gif"/>
 
 	<a id="shop" href="http://www.mistobox.com"> SHOP </a>
-	<a href="http://www.mistobox.com"> LEARN </a>
+	<a href="learndashboard.html"> LEARN </a>
 	<a href="http://www.mistobox.com"> BLOG </a>
 	<a href="http://www.mistobox.com"> GIFT </a>
 	<a href="http://www.mistobox.com"> ABOUT </a>
@@ -66,22 +57,64 @@ $('.darkenjquery').hover(function() {
 	</div>
 
 	<hr>
-		<div class="edMenu clearfix"  >
-			<div class="homeMenu" id = "homeBrew">
-		
-					<a class="homeMenuLink" href="#section1"> Brew Guides </a>
+
+<div id = "learnRow" class ="homeBrewing clearfix">
+		<div id = "brewGuides" class = "learnBox">
+			<div style="clear:both"><div class = "photo clearfix" >
+				<div class = "label">
+					Brew Guides
+				</div>
+				<div class = "overlay">
+				</div>
+				<div class = "rolltext">
+           Learn to brew the best cup of coffee at home. 
+				</div>
 			</div>
-			<div class="homeMenu"  id = "homeGrind">
-				<a class="homeMenuLink" href="grinding.html">Coffee Grinding</a>
-			</div>
-			<div class="homeMenu"  id = "homeAdvBrew">
-				<a  class="homeMenuLink" href="advancedbrewing.html">Advanced Brewing </a> 
-			</div>
-			<div class="homeMenu"  id = "homeStorage">
-				<a class="homeMenuLink" href="storageandfreshness.html">Storage & Freshness </a>
 			</div>
 		</div>
 
+
+		<div id ="grinding" class = "learnBox" title="grinding.html">
+			<a href=""> </a>
+			<div class = "photo">
+				<div class = "label">
+					Grinding
+				</div>
+				<div class = "overlay">
+				</div>
+				<div class = "rolltext">
+         Grinding is one of the most important aspects to a great cup of coffee. 
+				</div>
+			</div>
+		</div>
+
+
+		<div id = "advBrewing" class = "learnBox" title="advancedbrewing.html">
+			<div class = "photo">
+				<div class = "label">
+					<a href="#">Advanced Brewing</a>
+				</div>
+				<div class = "overlay">
+				</div>
+				<div class = "rolltext">
+				When you're ready to dig into more.
+				</div>
+			</div>
+		</div>
+
+		<div id ="storage" class = "learnBox" title="storageandfreshness.html">
+			<div class = "photo">
+				<div class = "label">
+					Storage & Freshness
+				</div>
+				<div class = "overlay">
+				</div>
+				<div class = "rolltext">
+					The importance of fresh coffee.
+				</div>
+			</div>
+		</div>
+	</div>
 
 		<hr>
 	
