@@ -1,3 +1,7 @@
+body{
+
+	font-family: 'Georgia';
+}
 h1{
 	font-family: 'Raleway', sans-serif;
 	font-weight: bold;
@@ -337,6 +341,32 @@ margin-top: 12px !important;
 		color:white;
 
 	}
+
+	#burrblade{
+		width:500px;
+		float:left;
+		margin:0px 15px;
+	}
+
+	.bladeProbs{
+		width:200px;
+		float:left;
+		margin:10px;
+		text-align: center;
+		}
+
+	.particleBox{
+		width: 132px;
+		height: 132px;
+		background-color: #776455;
+		float:left;
+		margin: 10px;
+	}
+	.bladeProbs img{
+		margin: auto;
+		width:50px;
+		display: block;
+	}
 	#advHeader{
 		background: url(../images/advancedbrewingimage.jpg);
 		background-size: 940px;
@@ -390,6 +420,8 @@ margin-top: 12px !important;
 
 	.edMenu{
 		text-align: center;
+		font-family: 'Roboto Slab', serif;
+		text-transform: uppercase;
 	}
 	
 	.edMenu a {
