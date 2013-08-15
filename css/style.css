@@ -24,6 +24,28 @@ h2{
 
 }
 
+h3{
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	font-size: 18px;
+	text-transform: uppercase;
+	margin: 15px;
+	color: #000;
+
+}
+
+h4{
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	font-size: 13px;
+	text-transform: uppercase;
+	margin: 15px;
+	color: #000;
+
+}
+
 hr{
 	color: #cdc8be;
 	background-color: #ededec;
@@ -343,29 +365,55 @@ margin-top: 12px !important;
 	}
 
 	#burrblade{
-		width:500px;
+		width:400px;
 		float:left;
 		margin:0px 15px;
+
+	}
+
+	#particleWrapper{
+		width:900px; 
+		margin:auto;
+	}
+	
+
+	#probs{
+		width:900px;
 	}
 
 	.bladeProbs{
 		width:200px;
 		float:left;
 		margin:10px;
-		text-align: center;
+
+		text-align: justify;
 		}
 
 	.particleBox{
-		width: 132px;
-		height: 132px;
+		width: 160px;
+		height: 160px;
 		background-color: #776455;
 		float:left;
-		margin: 10px;
+		margin: 30px;
+		color:white;
+	}
+
+	.particleBox h3{
+		color:white;
 	}
 	.bladeProbs img{
 		margin: auto;
 		width:50px;
 		display: block;
+	}
+
+	#prosCons{
+		float:left;
+		margin: 15px; 
+		padding:15px;
+		width: 400px;
+		background-color: #e8e3d9;
+
 	}
 	#advHeader{
 		background: url(../images/advancedbrewingimage.jpg);
