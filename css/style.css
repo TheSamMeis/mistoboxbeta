@@ -461,10 +461,17 @@ margin-top: 12px !important;
 		background: url(../images/advancedbrewingimage.jpg);
 		background-size: 940px;
 		width: 940px;
-
 		color:white;
 
 	}
+#storageHeader{
+		background: url(../images/storageimage.jpg);
+		background-size: 940px;
+		width: 940px;
+		color:white;
+
+	}
+
 
 	.important{
 		background-color: #e8e3d9;
