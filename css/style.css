@@ -466,6 +466,20 @@ margin-top: 12px !important;
 
 	}
 
+	.important{
+		background-color: #e8e3d9;
+		border-radius: 5px;
+		padding:30px;
+		font-family: 'Raleway', sans-serif;
+		width:300px;
+		height: 145px;
+		float:right;
+		margin: 20px;
+		margin-top: 0px;
+		font-weight: bold;
+		font-size: 16px;
+	}
+
 	#homeHeader{
 		background: url(../images/homebrew.jpg);
 		background-size: 940px;
@@ -628,6 +642,7 @@ margin-top: 12px !important;
 		color: #cdc8be;
 		font-size: 30px; 
 		margin-top: -50px;
+
 	}
 
 	
