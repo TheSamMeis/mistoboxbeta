@@ -21,11 +21,7 @@
 	height: 210px;
 	position: relative;
 }
-.homeBrewing .rolltext {
-	width:210px;
-	height: 210px;
-	position: relative;
-}
+
 
 	#edContainer{
 		padding-top: 90px;
@@ -120,26 +116,37 @@
 	margin:15px 0;
 }
 
-.learnBox .rolltext {
-	width: 200px;
+.rolltext {
 	color: #FFF;
-	font-size: 30px;
 	text-align: center;
-	margin-left: 50px;
-	margin-top: 90px;
 	text-transform: uppercase;
 	font-family: 'Roboto Slab', serif;
 	position: absolute;
 	z-index: 100;
-  position: absolute;
   display: none;
-
 
 }
 .learnBox.hover .rolltext {
   display: block;
   color: white;
 }
+
+.learnDash .rolltext{
+	width: 200px;
+	font-size: 30px;
+	margin-left: 50px;
+	margin-top: 90px;
+
+
+}
+.homeBrewing .rolltext {
+	width:180px;
+	height: 210px;
+	font-size: 20px;
+	margin-left: 15px;
+	margin-top:65px;
+}
+
 
 .label{
 		width:303px;
@@ -155,8 +162,7 @@
 	}
 .homeBrewing .label{
 	width:210px;
-	font-size: 20px;
-	margin-top: 100px;
+	font-size: 16px;	
 }
 
 	#home a{
