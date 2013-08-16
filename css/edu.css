@@ -116,24 +116,38 @@
   background-color:rgba(0,0,0,0.3);
 }
 
-
+#learnRow{
+	margin:15px 0;
+}
 
 .learnBox .rolltext {
+	width: 200px;
+	color: #FFF;
+	font-size: 30px;
+	text-align: center;
+	margin-left: 50px;
+	margin-top: 90px;
+	text-transform: uppercase;
+	font-family: 'Roboto Slab', serif;
+	position: absolute;
+	z-index: 100;
   position: absolute;
   display: none;
+
+
 }
 .learnBox.hover .rolltext {
   display: block;
-  color: black;
+  color: white;
 }
 
 .label{
-		width: 303px;
-		color: #FFF;
-		font-size: 40px;
+		width:303px;
+		color: #000;
+		font-size: 20px;
 		text-align: center;
 		margin: auto;
-		margin-top: 113px;
+		text-align: center;
 		text-transform: uppercase;
 		font-family: 'Roboto Slab', serif;
 		position: absolute;
@@ -153,21 +167,6 @@
 	.label a{
 		text-decoration: none;
 		color:white;
-	}
-
-	 .button {
-	  background: #B5241A;
-	  border-radius: 2px;
-	  color: white;
-	  text-align: center;
-	  font-size: 18px;
-	  line-height: 60px;
-	  height: 60px;
-	  width: 260px;
-	  cursor: pointer;
-	 /* text-shadow: black 1px 1px 2px;*/
-	  float: left;
-	  margin: 10px 0px;
 	}
 
 	#brewContainer{

@@ -2,12 +2,14 @@ $(function() {
 
   $('div.learnBox').hover(function() {
     $(this).addClass('hover');
+    $(this).find('div.label').css('color','#B5241A');
   },
   function() {
     $(this).removeClass('hover');
+    $(this).find('div.label').css('color','#000');
   });
 
-  	$('div.learnBox').click(function(){
+  $('div.learnBox').click(function(){
   	window.location = $(this).attr("title");
 
   	});

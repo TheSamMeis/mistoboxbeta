@@ -17,7 +17,7 @@ h2{
 	font-family: 'Raleway', sans-serif;
 	font-weight: bold;
 	text-align: center;
-	font-size: 17px;
+	font-size: 22px;
 	text-transform: uppercase;
 	margin: 15px;
 	color: #000;
@@ -75,10 +75,11 @@ header.site-header{
 .btn-nav {
 color: #fff !important;
 background: #B5241A;
-padding: 2px 8px;
+padding: 4px 8px;
 border: none;
 font-size: 12px;
 font-weight: normal;
+border-radius: 2px;
 }
 
 .scrollaway {
@@ -189,10 +190,10 @@ margin-top: 12px !important;
 }
 
 #taglineWrapper {
-	background: url(../images/homepage.jpg);
+	background: url(../images/homepageimage.jpg);
 	background-size: 940px;
 	width: 940px;
-	height: 400px;
+	height: 385px;
 	color:white;
 }
 
@@ -201,21 +202,21 @@ margin-top: 12px !important;
 	color: white;
 	font-size: 60px;
 	font-weight: bold;
-	width: 400px;
-	position: relative;
-	top: 100px;
-	left: 80px;
+	width: 900px;
+	margin: auto;
+	text-align: center;
+	padding-top: 50px;
 	 text-shadow: black 1px 1px 2px;
 	 font-family: 'Raleway', sans-serif;
-	 float: left;
+	 text-transform: uppercase;
+	 
 }
 
 #buttonblock{
-	background: rgba(0,0,0,0.5);
-	width: 350px;
+/*	background: rgba(0,0,0,0.5);*/
+	width: 900px;
 	height: 300px;
-	float:left;
-	margin: 50px 80px ;
+	margin: auto;
 /*	position: absolute;
 	top: 130px;
 	 left: 900px;*/
@@ -223,7 +224,11 @@ margin-top: 12px !important;
 
  .button {
 	  background: #B5241A;
-	  border-radius: 2px;
+	  font-family: 'Raleway', sans-serif;
+		text-transform: uppercase;
+		font-weight: bold;
+	  border: 1px solid #85241A;
+	  border-radius: 3px;
 	  color: white;
 	  text-align: center;
 	  font-size: 18px;
@@ -231,18 +236,41 @@ margin-top: 12px !important;
 	  height: 60px;
 	  width: 260px;
 	  cursor: pointer;
-	 /* text-shadow: black 1px 1px 2px;*/
+	  text-shadow: black 1px 1px 2px;
 	  float: left;
 	  margin: 10px 0px;
 	}
 
-	#buttonblock .button{
-		margin-top: 40px;
-		margin-left: 40px;
-		margin-right: 40px;
+	 .button:hover {
+	  background: #85241A;
 	}
+
+	#buttonblock .button{
+		margin: 30px auto 15px auto;
+	
+		width: 310px;
+		font-size: 25px;
+		border-radius: 4px;
+	}
+
+	#buttonblock a{
+		color:white;
+		text-decoration: none;
+		text-align: center;
+		font-family: 'Roboto Slab', serif;
+		text-transform: uppercase;
+	}
+
+	#buttonblock a:hover{
+		color: #e8e3d9;
+	}
+
+
 	#hpButtonWrap{
-		width: 350px;
+		width: 300px;
+		margin:auto;
+		text-align: center;
+	
 	}
 
 	#howitworks{
@@ -261,6 +289,7 @@ margin-top: 12px !important;
 		display: block;
 		color:black;
 		text-decoration: none;
+		
 	}
 	.workButtons a{
 		display: block;
@@ -280,6 +309,11 @@ margin-top: 12px !important;
 
   #workButtons div {
     display:inline-block;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+		font-weight: bold;
+		margin-right: 15px;
+		cursor: pointer;
   }
 
 	.workContent{
@@ -359,8 +393,10 @@ margin-top: 12px !important;
 		background: url(../images/grindingimage.jpg);
 		background-size: 940px;
 		width: 940px;
-		height:380px;
+		height:340px;
 		color:white;
+		position: relative;
+		top: -60px;
 
 	}
 
@@ -396,6 +432,7 @@ margin-top: 12px !important;
 		float:left;
 		margin: 30px;
 		color:white;
+		border-radius: 15px;
 	}
 
 	.particleBox h3{
@@ -419,7 +456,7 @@ margin-top: 12px !important;
 		background: url(../images/advancedbrewingimage.jpg);
 		background-size: 940px;
 		width: 940px;
-		height:380px;
+
 		color:white;
 
 	}
@@ -428,7 +465,7 @@ margin-top: 12px !important;
 		background: url(../images/homebrew.jpg);
 		background-size: 940px;
 		width: 940px;
-		height:380px;
+
 		color:white;
 
 	}
@@ -437,7 +474,7 @@ margin-top: 12px !important;
 		background: url(../images/coffeeroasting.jpg);
 		background-size: 940px;
 		width: 940px;
-		height:380px;
+
 		color:white;
 
 	}
@@ -446,7 +483,7 @@ margin-top: 12px !important;
 		background: url(../images/growingregions.jpg);
 		background-size: 940px;
 		width: 940px;
-		height:380px;
+
 		color:white;
 	}
 
@@ -454,10 +491,18 @@ margin-top: 12px !important;
 		background: url(../images/originimage.jpg);
 		background-size: 940px;
 		width: 940px;
-		height:380px;
+
 		color:white;
 	}
 
+	.edHeader{
+		background-size: 940px;
+		width: 940px;
+		height:360px;
+		color:white;
+		position: relative;
+		top: -60px;
+	}
 
 	.edHeader h1{
 		padding-top: 160px;
@@ -577,7 +622,7 @@ margin-top: 12px !important;
 
 		color: #cdc8be;
 		font-size: 30px; 
-		margin-top: 10px;
+		margin-top: -50px;
 	}
 
 	
