@@ -472,6 +472,33 @@ margin-top: 12px !important;
 
 	}
 
+	#processingHeader{
+		background: url(../images/processingimage.jpg);
+		background-size: 940px;
+		width: 940px;
+		color:white;
+
+	}
+
+#varietiesHeader{
+		background: url(../images/varietiesimage.jpg);
+		background-size: 940px;
+		width: 940px;
+		color:white;
+
+	}
+
+	#variablesHeader{
+		background: url(../images/variablesimage.jpg);
+		background-size: 940px;
+		width: 940px;
+		color:white;
+
+	}
+
+
+
+
 
 	.important{
 		background-color: #e8e3d9;

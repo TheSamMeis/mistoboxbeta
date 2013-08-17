@@ -97,6 +97,35 @@
 
 	}
 
+	#growingRegions .photo{
+		background: url(../images/africa.jpg);
+		background-size: 313px;
+
+	}
+
+	#varieties .photo{
+		background: url(../images/varieties.jpg);
+		background-size: 313px;
+
+	}
+
+	#tradeissues .photo{
+		background: url(../images/tradeissues.jpg);
+		background-size: 313px;
+
+	}
+		#processing .photo{
+		background: url(../images/processing.jpg);
+		background-size: 313px;
+
+	}
+		#variables .photo{
+		background: url(../images/variables.jpg);
+		background-size: 313px;
+
+	}
+
+
  .overlay {
 	width:303px;
 	height: 303px;
@@ -140,6 +169,16 @@
 
 
 }
+
+.origin .rolltext{
+	width: 200px;
+	font-size: 30px;
+	margin-left: 50px;
+	margin-top: 90px;
+
+
+}
+
 .homeBrewing .rolltext {
 	width:180px;
 	height: 210px;
