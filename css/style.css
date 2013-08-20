@@ -3,7 +3,7 @@ body{
 	font-family: 'Georgia';
 }
 h1{
-	font-family: 'Raleway', sans-serif;
+font-family: 'Lato', sans-serif;
 	font-weight: bold;
 	text-transform: uppercase;
 	color: #000;
@@ -14,7 +14,7 @@ h1{
 }
 
 h2{
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-weight: bold;
 	text-align: center;
 	font-size: 22px;
@@ -25,7 +25,7 @@ h2{
 }
 
 h3{
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-weight: bold;
 	text-align: center;
 	font-size: 18px;
@@ -36,7 +36,7 @@ h3{
 }
 
 h4{
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-weight: bold;
 	text-align: center;
 	font-size: 13px;
@@ -169,8 +169,6 @@ margin-top: 12px !important;
   width: 100%;
   top: 25px;
   left: 0;
-/*  background: #f7f7f7;*/
-
   background: #fff;
   background-position: top;
   padding: 5px;
@@ -205,9 +203,10 @@ margin-top: 12px !important;
 	width: 900px;
 	margin: auto;
 	text-align: center;
-	padding-top: 50px;
+	padding-top: 25px;
 	 text-shadow: black 1px 1px 2px;
-	 font-family: 'Raleway', sans-serif;
+	 text-transform: uppercase;
+	 font-family: 'Lato', sans-serif;
 	 text-transform: uppercase;
 	 
 }
@@ -309,7 +308,7 @@ margin-top: 12px !important;
 
   #workButtons div {
     display:inline-block;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Lato', sans-serif;
     text-transform: uppercase;
 		font-weight: bold;
 		margin-right: 15px;
@@ -542,6 +541,14 @@ margin-top: 12px !important;
 
 	#originHeader{
 		background: url(../images/originimage.jpg);
+		background-size: 940px;
+		width: 940px;
+
+		color:white;
+	}	
+
+	#tradeissuesHeader{
+		background: url(../images/tradeissuesimage.jpg);
 		background-size: 940px;
 		width: 940px;
 

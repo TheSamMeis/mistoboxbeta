@@ -242,6 +242,13 @@
 		margin-right: 15px;
 	}
 
+	.threemethods{
+		width: 250px;
+		float:left; 
+		margin: 10px;
+		text-align: center;
+	}
+
 	.clearfix:after {
      visibility: hidden;
      display: block;
