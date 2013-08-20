@@ -223,7 +223,7 @@ margin-top: 12px !important;
 
  .button {
 	  background: #B5241A;
-	  font-family: 'Raleway', sans-serif;
+	  font-family: 'Lato', sans-serif;
 		text-transform: uppercase;
 		font-weight: bold;
 	  border: 1px solid #85241A;
@@ -471,6 +471,15 @@ margin-top: 12px !important;
 
 	}
 
+#legendHeader{
+		background: url(../images/legendimage.jpg);
+		background-size: 940px;
+		width: 940px;
+		color:white;
+
+	}
+
+
 	#processingHeader{
 		background: url(../images/processingimage.jpg);
 		background-size: 940px;
@@ -503,7 +512,7 @@ margin-top: 12px !important;
 		background-color: #e8e3d9;
 		border-radius: 5px;
 		padding:30px;
-		font-family: 'Raleway', sans-serif;
+		font-family: 'Lato', sans-serif;
 		width:300px;
 		height: 145px;
 		float:right;
@@ -669,7 +678,6 @@ margin-top: 12px !important;
 		background-repeat: no-repeat;
 		background-size: 200px;
 	}
-
 
 	.anchor{
 	  display: block;

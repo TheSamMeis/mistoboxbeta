@@ -103,6 +103,13 @@
 
 	}
 
+		#legend{
+		background: url(../images/legend.jpg) ;
+		background-repeat: no-repeat;
+		background-size: 303px;
+	}
+
+
 	#varieties .photo{
 		background: url(../images/varieties.jpg);
 		background-size: 313px;
@@ -149,7 +156,7 @@
 	color: #FFF;
 	text-align: center;
 	text-transform: uppercase;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-weight: bold;
 	position: absolute;
 	z-index: 100;
