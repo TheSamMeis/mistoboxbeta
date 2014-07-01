@@ -4,7 +4,8 @@ $(function() {
    function update() {
      var scrollTop = $(document.body).scrollTop();
      var headerHeight = $('div.scrollaway').height();
-     var targetPosition = Math.max(-(headerHeight), -scrollTop);
+     var scrollheight = headerHeight -10;
+     var targetPosition = Math.max(-(scrollheight), -scrollTop);
      $('.site-header').css('top', targetPosition + 'px');
      timeoutId = null;
    }

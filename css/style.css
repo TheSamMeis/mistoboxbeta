@@ -73,18 +73,23 @@ header.site-header{
 	z-index: 199;
 }
 .btn-nav {
-color: #fff !important;
-background: #B5241A;
-padding: 4px 8px;
-border: none;
-font-size: 12px;
-font-weight: normal;
-border-radius: 2px;
+	color: #fff !important;
+	background: #B5241A;
+	padding: 4px 8px;
+	border: none;
+	font-size: 12px;
+	font-weight: normal;
+	border-radius: 2px;
+	font-family: 'Lato', sans-serif;
+}
+
+.btn-nav :hover {
+	background: #85241A;
 }
 
 .scrollaway {
-   height:30px;
-   background:#f7f7f7;
+   height:40px;
+   background:#E9E8E4;
 }
 
 .topheader{
@@ -706,5 +711,31 @@ margin-top: 12px !important;
 
 		text-align: center;
 		}
+
+#cartshow{
+			position: fixed;
+			top:-12px;
+			margin-top: 0px;
+			margin-left: 985px;
+			padding-left: 2px;
+			border: 0px solid #292929;
+			width: 65px;
+			height: 45px;
+			font-family: 'Roboto Slab', serif;
+			font-size: 12px;
+			-moz-border-radius: 0 0 30px 30px;
+			border-radius: 0 0 50px 50px;
+			text-align: center;
+			padding-top: 15px;
+			border: 0px dotted #7096ab;
+			border-top: none;
+			z-index: 1999999;
+			/*-moz-box-shadow: inset 0px -1px 1px 0 rgba(0,0,0,0.2);*/
+			color: #3e3e3e;
+			/*-webkit-box-shadow: inset 0px -1px 1px 0 rgba(0,0,0,0.2);*/
+			background-color: #e9e8e5;
+
+}
 	
+
 

@@ -49,85 +49,85 @@
 	}
 
 	#origin .photo{
-		background: url(../images/origin.jpg);
+		background: url(http://mistobox.com/v/mistoboxbeta/images/origin.jpg);
 		background-size: 313px;
 	}
 	#roasting .photo{
-		background: url(../images/roasting.jpg);
+		background: url(http://mistobox.com/v/mistoboxbeta/images/roasting.jpg);
 		background-size: 313px;
 	}
 	#home .photo{
-		background: url(../images/home.jpg);
+		background: url(http://mistobox.com/v/mistoboxbeta/images/home.jpg);
 		background-size: 313px;
 	}
 
 
 	#americas .photo{
-		background: url(../images/americas.jpg);
+		background: url(http://mistobox.com/v/mistoboxbeta/images/americas.jpg);
 		background-size: 313px;
 	}
 	#africa .photo{
-		background: url(../images/africa.jpg);
+		background: url(http://mistobox.com/v/mistoboxbeta/images/africa.jpg);
 		background-size: 313px;
 	}
 	#asia .photo{
-		background: url(../images/asiapacific.jpg);
+		background: url(http://mistobox.com/v/mistoboxbeta/images/asiapacific.jpg);
 		background-size: 313px;
 	}
 
 	#brewGuides .photo{
-		background: url(../images/brewguides.jpg);
+		background: url(http://mistobox.com/v/mistoboxbeta/images/brewguides.jpg);
 		background-size: 210px;
 
 	}
 
 	#grinding .photo{
-		background: url(../images/grinding.jpg);
+		background: url(http://mistobox.com/v/mistoboxbeta/images/grinding.jpg);
 		background-size: 210px;
 
 	}
 	#advBrewing .photo{
-		background: url(../images/advancedBrewing.jpg);
+		background: url(http://mistobox.com/v/mistoboxbeta/images/advancedBrewing.jpg);
 		background-size: 210px;
 
 	}
 	#storage .photo{
-		background: url(../images/storage.jpg);
+		background: url(http://mistobox.com/v/mistoboxbeta/images/storage.jpg);
 		background-size: 210px;
 
 	}
 
 	#growingRegions .photo{
-		background: url(../images/africa.jpg);
+		background: url(http://mistobox.com/v/mistoboxbeta/images/africa.jpg);
 		background-size: 313px;
 
 	}
 
 		#legend{
-		background: url(../images/legend.jpg) ;
+		background: url(http://mistobox.com/v/mistoboxbeta/images/legend.jpg) ;
 		background-repeat: no-repeat;
 		background-size: 303px;
 	}
 
 
 	#varieties .photo{
-		background: url(../images/varieties.jpg);
+		background: url(http://mistobox.com/v/mistoboxbeta/images/varieties.jpg);
 		background-size: 313px;
 
 	}
 
 	#tradeissues .photo{
-		background: url(../images/tradeissues.jpg);
+		background: url(http://mistobox.com/v/mistoboxbeta/images/tradeissues.jpg);
 		background-size: 313px;
 
 	}
 		#processing .photo{
-		background: url(../images/processing.jpg);
+		background: url(http://mistobox.com/v/mistoboxbeta/images/processing.jpg);
 		background-size: 313px;
 
 	}
 		#variables .photo{
-		background: url(../images/variables.jpg);
+		background: url(http://mistobox.com/v/mistoboxbeta/images/variables.jpg);
 		background-size: 313px;
 
 	}
@@ -347,7 +347,7 @@
 	margin-top: 80px;
 	width: 380px;
 	height: 452px;
-	background: url(../images/thermometer-bg.png) no-repeat;
+	background: url(http://mistobox.com/v/mistoboxbeta/images/thermometer-bg.png) no-repeat;
 }
 
 #thermometer-pointer {
@@ -357,114 +357,393 @@
 	z-index: 2;
 }
 
-	.roasterSquare#augies .photo{
-		background: url(../images/augies.jpg);
-		background-size: 251px;
+#grindContainer #footerContainer{
+
+	background-color: #776455;
+	position:absolute;
+	left:0;
+	right:0;
+	padding: 100px;
+	margin-top: 30px;
 	}
 
-	.roasterSquare#anodyne .photo{
-		background: url(../images/anodyne.jpg);
-		background-size: 251px;
+	#grindHeader{
+		background: url(http://mistobox.com/v/mistoboxbeta/images/grindingimage.jpg);
+		background-size: 940px;
+		width: 940px;
+		height:340px;
+		color:white;
+		position: relative;
+		top: -60px;
+
 	}
 
-	.roasterSquare#aj .photo{
-		background: url(../images/aj.jpg);
-		background-size: 251px;
-	}
-	.roasterSquare#barefoot .photo{
-		background: url(../images/barefoot.jpg);
-		background-size: 251px;
-	}
-	.roasterSquare#bowtruss .photo{
-		background: url(../images/bowtruss.jpg);
-		background-size: 251px;
-	}
-	.roasterSquare#brown .photo{
-		background: url(../images/brown.jpg);
-		background-size: 251px;
+	#burrblade{
+		width:400px;
+		float:left;
+		margin:0px 15px;
+
 	}
 
-	.roasterSquare#cartel .photo{
-		background: url(../images/cartel.jpg);
-		background-size: 251px;
+	#particleWrapper{
+		width:900px; 
+		margin:auto;
 	}
-	.roasterSquare#case .photo{
-		background: url(../images/case.jpg);
-		background-size: 251px;
+	
+
+	#probs{
+		width:900px;
 	}
-	.roasterSquare#ceremony .photo{
-		background: url(../images/ceremony.jpg);
-		background-size: 251px;
+
+
+	.bladeProbs{
+		width:200px;
+		float:left;
+		margin:10px;
+
+		text-align: justify;
+		}
+
+	.particleBox{
+		width: 160px;
+		height: 160px;
+		background-color: #776455;
+		float:left;
+		margin: 30px;
+		color:white;
+		border-radius: 15px;
 	}
-	.roasterSquare#chocolatefish .photo{
-		background: url(../images/chocolatefish.jpg);
-		background-size: 251px;
+
+	.particleBox h3{
+		color:white;
 	}
-	.roasterSquare#coava .photo{
-		background: url(../images/coava.jpg);
-		background-size: 251px;
+	.bladeProbs img{
+		margin: auto;
+		width:50px;
+		display: block;
 	}
-	.roasterSquare#demitasse .photo{
-		background: url(../images/demitasse.jpg);
-		background-size: 251px;
+		.country img{
+		margin: auto;
+		width:70px;
+		display: block;
 	}
-	.roasterSquare#elemental .photo{
-		background: url(../images/elemental.jpg);
-		background-size: 251px;
+
+	#prosCons{
+		float:left;
+		margin: 15px; 
+		margin-top: 0px;
+		padding:25px;
+		padding-top: 0px;
+		padding-bottom: 10px;
+		width: 400px;
+		background-color: #e8e3d9;
+		border-radius: 5px;
+
 	}
-	.roasterSquare#entimos .photo{
-		background: url(../images/entimos.jpg);
-		background-size: 251px;
+	#advHeader{
+		background: url(http://mistobox.com/v/mistoboxbeta/images/advancedbrewingimage.jpg);
+		background-size: 940px;
+		width: 940px;
+		color:white;
+
 	}
-	.roasterSquare#halfwit .photo{
-		background: url(../images/halfwit.jpg);
-		background-size: 251px;
+#storageHeader{
+		background: url(http://mistobox.com/v/mistoboxbeta/images/storageimage.jpg);
+		background-size: 940px;
+		width: 940px;
+		color:white;
+
 	}
-	.roasterSquare#klatch .photo{
-		background: url(../images/klatch.jpg);
-		background-size: 251px;
+
+#legendHeader{
+		background: url(http://mistobox.com/v/mistoboxbeta/images/legendimage.jpg);
+		background-size: 940px;
+		width: 940px;
+		color:white;
+
+	}
+
+
+	#processingHeader{
+		background: url(http://mistobox.com/v/mistoboxbeta/images/processingimage.jpg);
+		background-size: 940px;
+		width: 940px;
+		color:white;
+
+	}
+
+#varietiesHeader{
+		background: url(http://mistobox.com/v/mistoboxbeta/images/varietiesimage.jpg);
+		background-size: 940px;
+		width: 940px;
+		color:white;
+
+	}
+
+	#variablesHeader{
+		background: url(http://mistobox.com/v/mistoboxbeta/images/variablesimage.jpg);
+		background-size: 940px;
+		width: 940px;
+		color:white;
+
+	}
+
+
+
+
+
+	.important{
+		background-color: #e8e3d9;
+		border-radius: 5px;
+		padding:30px;
+		font-family: 'Lato', sans-serif;
+		width:300px;
+		height: 145px;
+		float:right;
+		margin: 20px;
+		margin-top: 0px;
+		font-weight: bold;
+		font-size: 16px;
+	}
+
+	#homeHeader{
+		background: url(http://mistobox.com/v/mistoboxbeta/images/homebrew.jpg);
+		background-size: 940px;
+		width: 940px;
+
+		color:white;
+
+	}
+
+	#roastingHeader{
+		background: url(http://mistobox.com/v/mistoboxbeta/images/coffeeroasting.jpg);
+		background-size: 940px;
+		width: 940px;
+
+		color:white;
+
+	}
+
+	#growingHeader{
+		background: url(http://mistobox.com/v/mistoboxbeta/images/growingregions.jpg);
+		background-size: 940px;
+		width: 940px;
+
+		color:white;
+	}
+
+	#originHeader{
+		background: url(http://mistobox.com/v/mistoboxbeta/images/originimage.jpg);
+		background-size: 940px;
+		width: 940px;
+
+		color:white;
 	}	
-	.roasterSquare#ladro .photo{
-		background: url(../images/ladro.jpg);
-		background-size: 251px;
+
+	#tradeissuesHeader{
+		background: url(http://mistobox.com/v/mistoboxbeta/images/tradeissuesimage.jpg);
+		background-size: 940px;
+		width: 940px;
+
+		color:white;
 	}
-	.roasterSquare#lonepine .photo{
-		background: url(../images/lonepine.jpg);
-		background-size: 251px;
+
+	.edHeader{
+		background-size: 940px;
+		width: 940px;
+		height:360px;
+		color:white;
+		position: relative;
+		top: -60px;
 	}
-	.roasterSquare#oakcliff .photo{
-		background: url(../images/oakcliff.jpg);
-		background-size: 251px;
-	}	
-	.roasterSquare#oq .photo{
-		background: url(../images/oq.jpg);
-		background-size: 251px;
-	}	
-	.roasterSquare#panther .photo{
-		background: url(../images/panther.jpg);
-		background-size: 251px;
-	}	
-	.roasterSquare#passionhouse .photo{
-		background: url(../images/passionhouse.jpg);
-		background-size: 251px;
-	}	
-	.roasterSquare#ristretto .photo{
-		background: url(../images/ristretto.jpg);
-		background-size: 251px;
-	}	
-	.roasterSquare#verve .photo{
-		background: url(../images/verve.jpg);
-		background-size: 251px;
-	}	
-	.roasterSquare#victrola .photo{
-		background: url(../images/victrola.jpg);
-		background-size: 251px;
-	}	
-	.roasterSquare#wateravenue .photo{
-		background: url(../images/wateravenue.jpg);
-		background-size: 251px;
-	}	
-	.roasterSquare#westbean .photo{
-		background: url(../images/westbean.jpg);
-		background-size: 251px;
-	}	
+
+	.edHeader h1{
+		padding-top: 160px;
+		color:white;
+		font-size: 60px;
+	}
+
+
+	.edMenu{
+		text-align: center;
+		font-family: 'Roboto Slab', serif;
+		text-transform: uppercase;
+	}
+	
+	.edMenu a {
+		margin: 0px 20px;
+		color: #000;
+		text-decoration: none;
+
+	}
+
+	.edMenu a:hover{
+		margin: 0px 20px;
+		color: #B5241A;
+		text-decoration: none;
+
+	}
+
+	#advContainer{
+		padding-top: 90px;
+		width:940px;
+		margin:auto;
+	}
+
+
+
+
+	
+	#grindMenu a {
+		margin: 0px 20px;
+		color: #000;
+		text-decoration: none;
+
+	}
+
+	#grindMenu a:hover{
+		margin: 0px 20px;
+		color: #B5241A;
+		text-decoration: none;
+
+	}
+
+	#grindContainer{
+		padding-top: 90px;
+		width:940px;
+		margin:auto;
+	}
+
+
+	.homeMenu{
+		float:left;
+		height:250px;
+		width:200px;
+		vertical-align: bottom;
+		margin: 0px 15px ;
+	}
+
+.homeMenu.hover .blackOverlay{
+	  // Red(0-255), Blue(0-255), Green(0-255), Alpha (0-1)
+	  -webkit-transition:opacity 0.2s ease;
+	  -moz-transition:opacity 0.2s ease;
+	  -o-transition:opacity 0.2s ease;
+	  background-color:rgba(250,250,250,0.3);
+}
+
+
+	.homeMenuLink{
+
+			position: relative;
+			top:205px;
+
+		}
+
+
+	#homeBrew{
+		background: url(http://mistobox.com/v/mistoboxbeta/images/timetemp.jpg) ;
+		background-repeat: no-repeat;
+		background-size: 200px;
+	}
+	#homeGrind{
+		background: url(http://mistobox.com/v/mistoboxbeta/images/timetemp.jpg) ;
+		background-repeat: no-repeat;
+		background-size: 200px;
+	}
+
+	#homeAdvBrew{
+		background: url(http://mistobox.com/v/mistoboxbeta/images/timetemp.jpg) ;
+		background-repeat: no-repeat;
+		background-size: 200px;
+	}
+
+	#homeStorage{
+		background: url(http://mistobox.com/v/mistoboxbeta/images/timetemp.jpg) ;
+		background-repeat: no-repeat;
+		background-size: 200px;
+	}
+
+	.anchor{
+	  display: block;
+	  height: 80px; 
+	  margin-top: -80px; 
+	  visibility: hidden;
+	}
+
+	.quote{
+
+		color: #cdc8be;
+		font-size: 30px; 
+		margin-top: -50px;
+
+	}
+
+		.country{
+		width:200px;
+		float:left;
+		margin:10px;
+
+		text-align: center;
+		}
+	
+
+.roastingphase{
+	width: 230px;
+	height: 300px;
+	background-color: #e6e3da;
+	float: left;
+	margin-left: 15px;
+	padding: 35px;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.roastingphase#medium{
+	background-color: #bdb1a4;
+}
+
+.roastingphase#dark{
+	background-color: #706456;
+}
+
+.varietiesrow{
+	width: 180px;
+	height:280px;
+	color: #fff;
+	text-align: center;
+	float: left;
+	margin:3px;
+	font-family: 'Roboto Slab', serif;
+	font-weight: bold;
+	font-size: 25px;
+	 text-shadow: black 1px 1px 2px;
+	line-height: 280px;
+
+	text-transform: uppercase;
+
+}
+
+.varietiesrow#bourbon{
+background-image: url(../images/bourboun.jpg);
+
+}
+
+.varietiesrow#typica{
+background-image: url(../images/typica.jpg);
+
+}
+
+.varietiesrow#caturra{
+background-image: url(../images/caturra.jpg);
+
+}
+
+.varietiesrow#pacamara{
+background-image: url(../images/pacamara.jpg);
+
+}
+
+.varietiesrow#catuai{
+background-image: url(../images/catuai.jpg);
+
+}
